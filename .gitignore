@@ -1,0 +1,24 @@
+# Sistema
+.DS_Store
+
+# Build (make e cmake usam build/)
+build/
+dist/
+*.o
+*.a
+*.dSYM/
+coverage/
+
+# Executáveis, caso sejam compilados fora de build/
+/servidor-http
+/test_http
+
+# Logs de acesso
+*.log
+
+# Outras linguagens
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
